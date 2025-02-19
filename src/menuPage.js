@@ -3,6 +3,25 @@ import NewYorkStripImg from "./assets/rare-new-york-strip.jpeg";
 import ribeyeImg from "./assets/ribeye.jpg";
 import tomahawkImg from "./assets/tomahawk.jpeg";
 import wagyuImg from "./assets/wagyu.jpeg";
+import bakedPotatoes from "./assets/bakedPotatoes.jpeg";
+import brussels from "./assets/brussels.jpeg";
+import calamari from "./assets/calamari.jpeg";
+import caesarSalad from "./assets/ceasarSalad.jpg";
+import cheeseCake from "./assets/cheeseCake.jpeg";
+import chocolateLavaCake from "./assets/chocolateLavaCakes.jpg";
+import creamedSpinach from "./assets/creamedSpinach.jpeg";
+import cremeBrulee from "./assets/cremeBrule.jpeg";
+import foieGras from "./assets/foieGras.jpg";
+import garlicMashedPotatoes from "./assets/garlicMashedPotatoes.jpeg";
+import garlliedAsparagus from "./assets/GarlliedAsparagus.jpg";
+import lobsterBisque from "./assets/lobsterBisque.jpg";
+import mixedGreenSalad from "./assets/mixedGreenSalad.jpeg";
+import oysters from "./assets/oysters.jpeg";
+import tiramisu from "./assets/tiramisu.jpg";
+import truffleMacAndCheese from "./assets/truffleMacAndCheese.jpg";
+import tunaTartare from "./assets/tunaTartare.jpg";
+import wedgeSalad from "./assets/wedgeSalad.jpg";
+
 // Function to create a single menu item
 function createMenuItem(name, price, description, imageSrc) {
   const menuItem = document.createElement("div");
@@ -120,40 +139,34 @@ export function menuPage() {
       price: "9.90$",
       description:
         "Fresh sushi-grade tuna with avocado and a citrus soy dressing.",
-      imageSrc: "path/to/tuna-tartare.jpg",
+      imageSrc: tunaTartare,
     },
     {
       name: "Crispy Calamari",
       price: "8.50$",
       description:
         "Lightly battered calamari with a lemon aioli dipping sauce.",
-      imageSrc: "path/to/calamari.jpg",
+      imageSrc: calamari,
     },
-    {
-      name: "Tuna Tartare",
-      price: "9.90$",
-      description:
-        "Fresh sushi-grade tuna, avocado, sesame seeds, and a tangy citrus soy dressing.",
-      imageSrc: "path/to/tuna-tartare.jpg",
-    },
+
     {
       name: "Oysters on the Half Shell",
       price: "16.00$",
       description: "Chilled oysters served with mignonette and cocktail sauce.",
-      imageSrc: "path/to/oysters.jpg",
+      imageSrc: oysters,
     },
     {
       name: "Seared Foie Gras",
       price: "21.50$",
       description:
         "Perfectly seared, served with a caramelized apple compote and balsamic glaze.",
-      imageSrc: "path/to/foie-gras.jpg",
+      imageSrc: foieGras,
     },
     {
       name: "Lobster Bisque",
       price: "11.00$",
       description: "Rich, velvety, and creamy with a touch of brandy.",
-      imageSrc: "path/to/lobster-bisque.jpg",
+      imageSrc: lobsterBisque,
     },
   ];
   const sides = [
@@ -162,39 +175,39 @@ export function menuPage() {
       price: "7.50$",
       description:
         "Creamy and rich, topped with a crispy truffle parmesan crust.",
-      imageSrc: "path/to/truffle-mac.jpg",
+      imageSrc: truffleMacAndCheese,
     },
     {
       name: "Roasted Brussels Sprouts with Bacon",
       price: "6.00$",
       description:
         "Caramelized Brussels sprouts, smoky bacon, and balsamic drizzle.",
-      imageSrc: "path/to/brussels-sprouts.jpg",
+      imageSrc: brussels,
     },
     {
       name: "Creamed Spinach",
       price: "5.00$",
       description: "Velvety and indulgent, with a hint of nutmeg.",
-      imageSrc: "path/to/creamed-spinach.jpg",
+      imageSrc: creamedSpinach,
     },
     {
       name: "Garlic Mashed Potatoes",
       price: "4.50$",
       description: "Smooth and buttery with roasted garlic.",
-      imageSrc: "path/to/garlic-mashed-potatoes.jpg",
+      imageSrc: garlicMashedPotatoes,
     },
     {
       name: "Grilled Asparagus",
       price: "5.50$",
       description:
         "Lightly charred with a sprinkle of sea salt and fresh lemon.",
-      imageSrc: "path/to/grilled-asparagus.jpg",
+      imageSrc: garlliedAsparagus,
     },
     {
       name: "Baked Potato",
       price: "3.50$",
       description: "Served with sour cream, chives, cheddar, and bacon bits.",
-      imageSrc: "path/to/baked-potato.jpg",
+      imageSrc: bakedPotatoes,
     },
   ];
   const salads = [
@@ -203,21 +216,21 @@ export function menuPage() {
       price: "7.00$",
       description:
         "Crisp romaine, parmesan, garlic croutons, and a rich Caesar dressing.",
-      imageSrc: "path/to/caesar-salad.jpg",
+      imageSrc: caesarSalad,
     },
     {
       name: "Wedge Salad",
       price: "8.50$",
       description:
         "Iceberg lettuce, blue cheese, bacon, cherry tomatoes, and a creamy ranch dressing.",
-      imageSrc: "path/to/wedge-salad.jpg",
+      imageSrc: wedgeSalad,
     },
     {
       name: "Mixed Greens",
       price: "6.50$",
       description:
         "Baby greens, candied pecans, goat cheese, and a balsamic vinaigrette.",
-      imageSrc: "path/to/mixed-greens.jpg",
+      imageSrc: mixedGreenSalad,
     },
   ];
   const desserts = [
@@ -225,27 +238,27 @@ export function menuPage() {
       name: "Chocolate Lava Cake",
       price: "8.00$",
       description: "Warm, molten center served with vanilla bean ice cream.",
-      imageSrc: "path/to/chocolate-lava-cake.jpg",
+      imageSrc: chocolateLavaCake,
     },
     {
       name: "Crème Brûlée",
       price: "7.50$",
       description:
         "Rich vanilla custard with a perfectly caramelized sugar top.",
-      imageSrc: "path/to/creme-brulee.jpg",
+      imageSrc: cremeBrulee,
     },
     {
       name: "Cheesecake",
       price: "6.50$",
       description: "New York-style cheesecake with a berry compote.",
-      imageSrc: "path/to/cheesecake.jpg",
+      imageSrc: cheeseCake,
     },
     {
       name: "Tiramisu",
       price: "7.00$",
       description:
         "Layers of espresso-soaked ladyfingers, mascarpone cream, and cocoa dusting.",
-      imageSrc: "path/to/tiramisu.jpg",
+      imageSrc: tiramisu,
     },
   ];
   // Create menu groups
