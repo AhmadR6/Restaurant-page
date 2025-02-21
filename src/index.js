@@ -1,6 +1,7 @@
 import "./styles/styles.css";
 import { HomePage } from "./homePage";
 import { menuPage } from "./menuPage";
+import { aboutPage } from "./aboutPage";
 
 HomePage();
 
@@ -11,3 +12,4 @@ const aboutBtn = document.getElementById("aboutBtn");
 homeBtn.addEventListener("click", HomePage);
 
 menuBtn.addEventListener("click", menuPage);
+aboutBtn.addEventListener("click", aboutPage);
