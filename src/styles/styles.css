@@ -107,6 +107,22 @@ img {
   line-height: 1.6;
 }
 
+/* about page */
+.aboutContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+  color: white;
+}
+.aboutHeading {
+  font-size: 3.5em;
+}
+.aboutUsText {
+  font-size: 1em;
+  width: 400px;
+  line-height: 1.6;
+  backdrop-filter: blur(1px);
+}
 @media screen and (min-width: 992px) {
   .menu {
     font-size: 16px;
@@ -120,21 +136,10 @@ img {
     width: 125px;
     height: 125px;
   }
-}
-
-/* about page */
-.aboutContainer {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1.5em;
-  color: white;
-}
-.aboutHeading {
-  font-size: 3.5em;
-}
-.aboutUsText {
-  font-size: 1.5em;
-  width: 800px;
-  line-height: 1.6;
-  backdrop-filter: blur(1px);
+  .aboutUsText {
+    font-size: 1.5em;
+    width: 800px;
+    line-height: 1.6;
+    backdrop-filter: blur(1px);
+  }
 }
